@@ -8,5 +8,4 @@ os.system('clear')
 
 df = pd.read_csv(path,sep='\s+')
 df = df.groupby('Server_ID').mean('Query_ID')
-
 print(df)
