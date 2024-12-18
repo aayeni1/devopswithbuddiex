@@ -1,0 +1,4 @@
+Practice Problem: Implementing the Atbash Cipher
+Problem Statement: The Atbash cipher is a classical encryption method where each letter in the alphabet is replaced with its opposite letter. For example, 'a' is replaced with 'z', 'b' is replaced with 'y', and so on. Your task is to implement the Atbash cipher in Python.
+
+Create a function atbash(word) that takes a single string argument word. The function should return a new string where each letter is replaced with its opposite letter in the alphabet. Uppercase and lowercase letters should be handled separately, and non-alphabet characters (such as spaces and punctuation) should remain unchanged.
